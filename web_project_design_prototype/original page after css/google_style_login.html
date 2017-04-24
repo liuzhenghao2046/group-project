@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link rel="stylesheet" href="index.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body style="background-image:url(003.jpg); background-size:cover; background-repeat: no-repeat;">
+	<div class="accent-4 card" style="margin:auto; padding:180px; width: 720px; background-image: url(02.jpg); background-size:cover;">
+
+		<!-- Grey navigation panel -->
+		<div class="container center">
+			<i class="large material-icons">person_pin</i><br>
+			<span class="white-text waves-effect" >Login</span><br><br>
+			<a href="https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://accounts.div{background:url(images/1.jpg) no-repeat;}google.com/o/oauth2/auth?redirect_uri%3Dstoragerelay://https/google-developers.appspot.com?id%253Dauth128733%26response_type%3Dpermission%2Bid_token%26scope%3Demail%2Bprofile%2Bopenid%26openid.realm%26client_id%3D831371170934-udapit5jhjj56pft5l2drc9gjhfeclf3.apps.googleusercontent.com%26ss_domain%3Dhttps://google-developers.appspot.com%26fetch_basic_profile%3Dtrue%26gsiwebsdk%3D2%26from_login%3D1%26as%3D-2b47858a56adf1c4&oauth=1&sarp=1&scc=1#identifier"
+							class="btn btn-danger"><span class="fa fa-google-plus"></span> Google Login</a>
+				<br><br>
+				<input type="text" name="text" size=60 id='intext'></input>
+				<input type='button' value='Register' onclick='show()'></button>
+				<div> Name:
+					<span id='show1'>
+
+          </span>
+				</div>
+				<div>Message:
+					<span id='show2'>
+
+          </span> Created successfully.
+				</div>
+
+		</div>
+	</div>
+
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script>
+		function show() {
+			var content = document.getElementById('intext').value;
+			document.getElementById('show1').innerHTML = content;
+			document.getElementById('show2').innerHTML = content;
+		}
+	</script>
+</body>
+
+</html>

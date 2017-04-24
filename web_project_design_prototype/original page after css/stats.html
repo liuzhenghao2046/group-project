@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link href="backpicture.css" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" href="stats.css">
+
+	<link rel="stylesheet" href="main.css" type="text/css" media="all">
+	<link href="imageMenu.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="mootools.js"></script>
+	<script type="text/javascript" src="imageMenu.js"></script>
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="backpicture">
+
+
+	<ul id="slide-out" class="side-nav ">
+		<li>
+			<div class="userView">
+				<div class="background">
+					<img src="office.jpg">
+				</div>
+				<a href="#!user"><img class="circle" src="yuna.jpg"></a>
+				<a href="#!name"><span class="white-text name">Jane Doe</span></a>
+				<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+			</div>
+		</li>
+		<li><a href="index.html" class="waves-effect waves-light"><i class="material-icons left">person_pin</i><span class="black-text">HOME</span></a></li>
+		<li><a href="bio.html" class="waves-effect waves-light"><i class="material-icons left">assignment_ind</i><span class="black-text">BIO</span></a></li>
+		<li><a href="stats.html" class="waves-effect waves-light"><i class="material-icons left">assessment</i><span class="black-text">STATS</span></a></li>
+	</ul>
+
+	<a href="#" data-activates="slide-out" class="button-collapse" style="padding:72px;"><i class="material-icons">menu</i></a>
+	<div class="col s9" style="height:100%;">
+		<!-- Teal page content  -->
+		<div class="container center">
+			<div class="chart">
+				<h5> Weekly Run (in km)</h5>
+				<div align="center" style="width: 30px;">Monday</div>
+				<div style="width: 50px;">Tuesday</div>
+				<div style="width: 80px;">Wednesday</div>
+				<div style="width: 60px;">Thursday</div>
+				<div style="width: 50px;">Friday</div>
+				<div style="width: 60px;">Saturday</div>
+				<div style="width: 50px;">Sunday</div>
+			</div>
+			<br>
+			<br>
+
+
+			<h5> Daily Run </h5>
+			<div class="pieContainer">
+				<div class="pieBackground"></div>
+				<div id="pieSlice1" class="hold">
+					<div class="pie"></div>
+				</div>
+				<div id="pieSlice2" class="hold">
+					<div class="pie"></div>
+				</div>
+				<div id="pieSlice3" class="hold">
+					<div class="pie"></div>
+				</div>
+				<div id="pieSlice4" class="hold">
+					<div class="pie"></div>
+				</div>
+			</div><br>
+			<br>
+		</div>
+	</div>
+	</div>
+
+
+
+	
+
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

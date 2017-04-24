@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="backpicture.css" rel="stylesheet" type="text/css" >
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link rel="stylesheet" href="bio.css">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class ="backpicture">
+
+	<ul id="slide-out" class="side-nav ">
+       <li><div class="userView">
+         <div class="background">
+           <img src="office.jpg">
+         </div>
+         <a href="#!user"><img class="circle" src="yuna.jpg"></a>
+         <a href="#!name"><span class="white-text name">Jane Doe</span></a>
+         <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+       </div></li>
+       <li><a href="index.html"class="waves-effect waves-light"><i class="material-icons left">person_pin</i><span class="black-text">HOME</span></a></li>
+	   <li><a href="bio.html" class="waves-effect waves-light"><i class="material-icons left">assignment_ind</i><span class="black-text">BIO</span></a></li>
+	   <li><a href="stats.html" class="waves-effect waves-light"><i class="material-icons left">assessment</i><span class="black-text">STATS</span></a></li>
+     </ul>
+
+	 <a href="#" data-activates="slide-out" class="button-collapse" style="padding:72px;"><i class="material-icons">menu</i></a>
+
+
+
+	<div class="col s9" style="height:100%;">
+		<!-- Teal page content  -->
+		<div class="container center">
+			<div class="row">
+				<div class="input-field col s2">
+					<a href="#!user"><img class="circle" src="yuna.jpg"></a>
+				</div>
+				<div class="input-field col s10">
+					<textarea id="textarea1" class="materialize-textarea">I am Jane Doe, I like to run. </textarea>
+					<label for="textarea1">Bio</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 1</span>
+						<div class="divider"></div>
+						<span class="black-text">MORE STATS THAT ARE DISPLAYED WHEN CLICKED</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 2</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 3</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 4</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 5</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel red accent-4">
+						<span class="black-text">Group 6</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="input-field col s6 left">
+						<a class="waves-effect waves-light btn red left"><span class="black-text">JOIN GROUP</span></a><br><br><br>
+					</div>
+
+					<div class="input-field col s6 right">
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">Group ID</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="input-field col s6 left">
+						<a class="waves-effect waves-light btn red left"><span class="black-text">CREATE GROUP</span></a><br><br><br>
+					</div>
+
+					<div class="input-field col s6 right">
+						<input id="createGroup" type="text" class="validate">
+						<label for="createGroup">Group ID</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
