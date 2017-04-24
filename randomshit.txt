@@ -1,0 +1,27 @@
+body {
+  background-color: #000000;
+  background-image: url('../public/runner.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  padding-top: 40%;
+}
+
+.primary{
+  background-color: #D32F2F;
+}
+.accent{
+  background-color: #4CAF50;
+}
+.fontL{
+  color: #ffffff;
+  font-family: Arial;
+  font-size: xx-large;
+}
+.fontM{
+  color: #ffffff;
+  font-family: Arial;
+  font-size: large;
+}
+.fcenter{
+  text-align: center;
+}
